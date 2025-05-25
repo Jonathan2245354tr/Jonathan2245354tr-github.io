@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LA Clippers - Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            background: linear-gradient(to bottom, #006BB8, #FFFFFF);
+            color: #000000;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #006BB8;
+            padding: 15px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        .navbar a {
+            color: #FFFFFF;
+            text-decoration: none;
+            padding: 15px 20px;
+            margin: 0 10px;
+            font-size: 18px;
+            font-weight: 700;
+            transition: transform 0.2s;
+        }
+        .navbar a:hover {
+            background-color: #EE104A;
+            transform: scale(1.1);
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .hero {
+            text-align: center;
+            background: url('https://via.placeholder.com/900x200?text=Clippers+Court') no-repeat center;
+            background-size: cover;
+            padding: 40px;
+            border: 3px solid #EE104A;
+            margin-bottom: 20px;
+            width: 100%;
+            box-sizing: border-box;
+            background-color: rgba(65, 78, 183, 0.9);
+            border: 2px solid #006BB8;
+            padding: 20px;
+            margin-bottom: 20px;
+            width: 100%;
+            box-sizing: border-box;
+            border-radius: 10px;
+            
+        }
+        .content-box {
+            background-color: rgba(255, 255, 255, 0.9);
+            border: 2px solid #006BB8;
+            padding: 20px;
+            margin-bottom: 20px;
+            width: 100%;
+            box-sizing: border-box;
+            border-radius: 10px;
+        }
+        h1 {
+            color: #EE104A;
+            text-shadow: 1px 1px 2px #000000;
+            
+        }
+        h2 {
+            color: #b80000;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .image-caption {
+            font-size: 14px;
+            color: #666;
+        }
+        .player-card {
+            position: relative;
+            margin: 10px 0;
+            cursor: pointer;
+        }
+        .player-card:hover .player-info {
+            opacity: 1;
+            visibility: visible;
+        }
+        .player-info {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba(184, 0, 0, 0.9);
+            color: #FFFFFF;
+            padding: 10px;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s;
+            border-radius: 5px;
+        }
+        #ball-section {
+            background-color: #F5F5F5;
+            padding: 20px;
+            border: 2px solid #EE104A;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .basketball {
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+        .basketball:hover {
+            transform: scale(1.1);
+        }
+        #ball-count {
+            font-size: 18px;
+            color: #006BB8;
+            margin-top: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #006BB8;
+            color: #FFFFFF;
+            width: 100%;
+            font-weight: 700;
+        }
+        a.custom-link {
+            color: #006BB8;
+            text-decoration: none;
+        }
+        a.custom-link:hover {
+            color: #EE104A;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="WrapUpHome.html">Home</a>
+        <a href="WrapUp2.html">Roster</a>
+        <a href="WrapUp3.html">News</a>
+        <a href="WrapUp4.html">Intuit Dome</a>
+        <a href="WrapUp5.html">Reference page</a>
+
+    </nav>
+    <div class="container">
+        <div class="hero">
+            <h1>LA Clippers Nation</h1>
+            <p style="color: #FFFFFF; text-shadow: 1px 1px #000000;">Join the excitement of Clippers basketball!</p>
+        </div>
+        <div class="content-box">
+            <h2>About the LA Clippers</h2>
+            <p><u><a href="https://en.wikipedia.org/wiki/Los_Angeles_Clippers" class="custom-link">Source</a></u> The Los Angeles Clippers are an American professional basketball team based in the Greater Los Angeles area. The Clippers compete in the National Basketball Association (NBA) as a member of the Pacific Division of the Western Conference. The team plays its home games at Intuit Dome in Inglewood, California, beginning with the 2024–25 NBA season. Previously, the Clippers played their home games at Crypto.com Arena in Los Angeles from 1999 to 2024, which they had shared with the NBA's Los Angeles Lakers, the Los Angeles Sparks of the Women's National Basketball Association (WNBA), and the Los Angeles Kings of the National Hockey League (NHL). They are frequently referred to by their fans as "the Clips" or "LAC". <a href="https://www.nba.com/clippers" class="custom-link">Visit NBA.com for more</a>.</p>
+            <p><u><a href="https://en.wikipedia.org/wiki/Los_Angeles_Clippers" class="custom-link">Source</a></u> The Clippers' reputation improved during the 2010s, which saw them transform into consistent postseason contenders. Aided by the "Lob City" lineup of Blake Griffin, DeAndre Jordan, and Chris Paul, the team qualified for the playoffs in six consecutive seasons from 2012 to 2017 and won two consecutive division titles in 2013 and 2014, both firsts for the franchise. Despite this success, the Clippers struggled in the postseason and were frequently eliminated in the Conference Semifinals; the team reached the conference finals for the first time in 2021. To date, they are the oldest franchise in North American professional sports to have never played in a championship game.</p>
+        </div>
+        <div class="content-box">
+            <h2>Player Spotlight</h2>
+            <div class="player-card">
+                <p>Kawhi Leonard</p>
+                <div class="player-info">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6450.png&w=350&h=254" alt="Kawhi Leonard" width="100">
+                    <p>Position: Forward<br>Career PPG: 20.1<br>2x NBA Champion</p>
+                </div>
+            </div>
+            
+            <img src="https://ca-times.brightspotcdn.com/dims4/default/9945d51/2147483647/strip/true/crop/5123x3416+0+0/resize/1200x800!/format/webp/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F20%2F25%2F53f8b00a470f8a30944077fffaff%2Ftimberwolves-clippers-basketball-20641.jpg" alt="Kawhi Leonard" height="500" width="400">
+            
+            <div class="player-card">
+                <p>James Harden</p>
+                <div class="player-info">
+                    <img src="https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3992.png" alt="James Harden" width="100">
+                    <p>Position: Shooting Guard<br>Career PPG: 24.1<br>11x All-Star</p>
+                </div>
+            </div>
+            <img src="https://ca-times.brightspotcdn.com/dims4/default/6350b47/2147483647/strip/true/crop/3600x2400+0+0/resize/1200x800!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F9b%2Fb6%2F65a402314f11b5752921765320ab%2Fclippers-mavericks-basketball-13431.jpg" alt="James Harden" height="500" width="400">
+        </div>
+        <div id="ball-section" class="content-box">
+            <h2>Dribble the Ball!</h2>
+            <p>Click the basketball to count your dribbles!</p>
+            <img src="https://media2.giphy.com/media/GLPNllNAWaSVYQ1ppb/giphy.gif?cid=6c09b952so2ahebfv20ptdxqdhbw7wxquamnzbjx86a26pzp&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s" alt="Basketball" class="basketball" width="150" onclick="countDribble()">
+            <p id="ball-count">Dribbles: 0</p>
+        </div>
+        <div class="content-box">
+            <h2>Clippers Pride</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/Los_Angeles_Clippers_%282024%29.svg/1920px-Los_Angeles_Clippers_%282024%29.svg.png" alt="LA Clippers Logo" width="400">
+            <p class="image-caption">Source: (Courtesy Los Angeles Clippers)</p>
+            <img src="https://ca-times.brightspotcdn.com/dims4/default/a55a5f6/2147483647/strip/true/crop/5884x3923+0+0/resize/1200x800!/format/webp/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fa4%2Fd9%2F01bb29bc4af78c16236c733f69be%2Fmavericks-clippers-basketball-24067.jpg" alt="Clippers Game Action" width="400">
+            <p class="image-caption">Source: Jae C. Hong / Associated Press</p>
+            <p>Clippers Nation is all about passion and pride. Go Clippers!</p>
+        </div>
+    </div>
+    <footer>
+        <p>© 2025 LA Clippers Fan Site | Go Clippers!</p>
+    </footer>
+    <script>
+        let dribbleCount = 0;
+        function countDribble() {
+            dribbleCount++;
+            document.getElementById('ball-count').textContent = `Dribbles: ${dribbleCount}`;
+        }
+    </script>
+</body>
+</html>
